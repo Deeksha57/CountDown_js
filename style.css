@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Courier New', Courier, monospace;
+}
+
+h2{
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 2rem;
+    color: rgb(37, 110, 236);
+}
+h3{
+    font-size: 1rem;
+}
+.coming-soon{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.countdown{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 2rem;
+}
+.day,
+.hour,
+.minute,
+.second{
+    font-size: 1rem;
+}
+.waiting{
+    height: 50vh;
+    width: 100vh;
+}
